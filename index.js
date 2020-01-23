@@ -1,6 +1,6 @@
 
 const Discord = require('discord.js');
-const bot = new Discord.Client();
+const client = new Discord.Client();
 const Canvas = require('canvas');
 
 
@@ -141,29 +141,6 @@ setInterval(function(){})
 		  message.member.addRole(message.guild.roles.find("name",`${args}`));
   
 	  
-}
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const Discord = require('discord.js');
-const fs = require('fs');
-const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Welcome Bro ${client.user.tag}!`);
