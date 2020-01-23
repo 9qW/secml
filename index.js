@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const Canvas = require('canvas');
 
 
-
+const prefix = '#';
 const PREFIX = '#';
 
 
