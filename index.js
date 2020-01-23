@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const Canvas = require('canvas');
 
-const token = 'NjY5NDM4MTY5MTc1MDMxODIx.Xif1kg.0kqESMpaOPHpcs-Y-YZiR6It9cU';
+
 
 const PREFIX = '#';
 
@@ -142,4 +142,4 @@ setInterval(function(){})
 }
 });
 
-bot.login(token);
+bot.login(process.env.token);
